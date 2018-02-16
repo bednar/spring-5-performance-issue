@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+	<bean id="service1" class="com.github.bednar.spring5performanceissue.Service1"/>
+	<bean id="service2" class="com.github.bednar.spring5performanceissue.Service2"/>
+	<bean id="service3" class="com.github.bednar.spring5performanceissue.Service3"/>
+	<bean id="service4" class="com.github.bednar.spring5performanceissue.Service4"/>
+	<bean id="service5" class="com.github.bednar.spring5performanceissue.Service5"/>
+
+</beans>
