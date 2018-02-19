@@ -42,6 +42,6 @@ public class PerformanceIssue
 
 		stopWatch.stop();
 
-		LOG.info("{} bean creations: total={}", count, stopWatch.getLastTaskTimeMillis());
+		LOG.info("{} bean creations {} ms", count, stopWatch.getLastTaskTimeMillis());
 	}
 }
