@@ -1,6 +1,6 @@
-# JIRA Issue
+# FIXED
 
-- [SPR-16514](https://jira.spring.io/browse/SPR-16514)
+- [~~SPR-16514~~](https://jira.spring.io/browse/SPR-16514)
 
 
 In our system we use the short live non singleton bean. After upgrade to Spring 5.0.3 our performance tests has performance degradation caused by slowdown the bean creation. Here is a speed comparison between the Spring 4.3.6 and the Spring 5.0.3:
